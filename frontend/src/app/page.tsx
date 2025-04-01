@@ -15,7 +15,6 @@ export default function Chat() {
             <strong>{`${message.role}: `}</strong>
             {message.parts.map(part => {
               switch (part.type) {
-                // テキスト部分を単純なテキストとしてレンダリングする
                 case 'text':
                   return part.text;
                 default:

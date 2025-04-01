@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@ai-sdk/azure": "^1.2.1",
     "@ai-sdk/react": "^1.1.21",
     "@ai-sdk/togetherai": "^0.2.3",
     "ai": "4.2",
